@@ -31,7 +31,7 @@ setup(
     install_requires=[
         'setuptools',
         'slacker',
-        ] + install_requires,
+        ].extend(install_requires),
 
     entry_points={
         'console_scripts': [
